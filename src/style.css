@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -25,6 +31,10 @@ body::before {
   );
   z-index: -1;
   transition: background 0.1s ease;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 main {
@@ -191,7 +201,7 @@ img {
 
 .my-services {
   background-color: #212121;
-  background-image: url(../img/services-bg.jpg);
+  background-image: url(../img/services-bg.webp);
   background-size: cover;
   color: #fff;
   text-align: center;
