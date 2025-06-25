@@ -85,6 +85,14 @@ section {
   margin: 0 auto;
 }
 
+@media (max-width: 600px) {
+  .logo img {
+    width: 80%;
+    height: auto;
+    max-height: 180px;
+  }
+}
+
 .nav {
   position: fixed;
   background: #212121;
