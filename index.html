@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevTholoana Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/tholoana-logo.png" alt="DevTholoana logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro" id="home">
+      <p class="section__subtitle section__subtitle--intro">front end dev</p>
+    </section>
+
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Custom Web Design & Development</h3>
+          <p>
+            I design and build clean, responsive websites using HTML, CSS, and
+            JavaScript. My focus is on creating user-friendly, visually
+            appealing designs that function flawlessly across all devices.
+          </p>
+        </div>
+        <div class="service">
+          <h3>E-Commerce Frontend Solutions</h3>
+          <p>
+            I develop modern e-commerce frontends that increase user engagement
+            and sales. From intuitive navigation to responsive layouts, I ensure
+            a seamless experience that converts.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Lightweight, Code-First Builds</h3>
+          <p>
+            I create websites from scratch without relying on heavy CMS
+            platforms like WordPress. This results in faster load times, better
+            performance, and full customization.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I Am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        A builder of accessible, pixel-perfect digital experiences for the web.
+      </p>
+      <div class="about-me__body">
+        <p>
+          I’m a frontend developer with a solid foundation built through
+          self-learning and formal training at ALX and SheCodes. These programs
+          gave me strong hands-on experience with modern frontend technologies
+          and best practices, helping me write clean, efficient, and
+          maintainable code. I’m committed to continuous growth and delivering
+          high-quality digital experiences.
+        </p>
+        <p>
+          At ALX, I led projects that strengthened my skills in project
+          management and teamwork. Leading teams and managing workflows taught
+          me how to deliver user-centered solutions on time and collaborate
+          effectively. I’m passionate about building accessible, well-designed,
+          and functional web interfaces.
+        </p>
+      </div>
+      <img
+        src="img/Tholoana.jpg"
+        alt="Tholoana working at her desk"
+        class="about-me__img" />
+    </section>
+
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle">
+        Here are some key projects that demonstrate my expertise as a frontend
+        developer. These examples highlight my ability to create responsive,
+        accessible, and visually engaging user interfaces while writing clean,
+        maintainable code. Each project reflects my passion for transforming
+        design concepts into seamless digital experiences.
+      </p>
+
+      <div class="portfolio">
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a
+              href="https://your-ecommerce-site.com"
+              target="_blank"
+              rel="noopener">
+              E-Commerce Store <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img
+            src="img/commerce.jpg"
+            alt="E-Commerce Store"
+            class="portfolio__img" />
+          <p class="project-description">
+            A modern online store built with responsive design and smooth cart
+            functionality.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo1" class="btn" target="_blank"
+              >Github Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a href="https://your-game-site.com" target="_blank" rel="noopener">
+              JavaScript Game <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img
+            src="img/game.jpg"
+            alt="JavaScript Game"
+            class="portfolio__img" />
+          <p class="project-description">
+            A fun browser-based game showcasing DOM manipulation and JavaScript
+            logic.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo2" class="btn" target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a href="https://your-music-app.com" target="_blank" rel="noopener">
+              Movie App <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img src="img/movie.avif" alt="Movie App" class="portfolio__img" />
+          <p class="project-description">
+            A stylish movie catelogue app interface built with smooth
+            animations.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo4" class="btn" target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a
+              href="https://your-pizza-site.com"
+              target="_blank"
+              rel="noopener">
+              Slicehub <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img
+            src="img/pizza.jpg"
+            alt="Pizza Order App"
+            class="portfolio__img" />
+          <p class="project-description">
+            An interactive pizza ordering interface using HTML, CSS, and
+            JavaScript.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo5" class="btn" target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a href="https://your-edu-site.com" target="_blank" rel="noopener">
+              Letter Leap <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img
+            src="img/learn.jpg"
+            alt="Learning Platform"
+            class="portfolio__img" />
+          <p class="project-description">
+            A responsive learning platform built with accessibility and
+            usability in mind.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo3" class="btn" target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a
+              href="https://your-recipe-app.com"
+              target="_blank"
+              rel="noopener">
+              Recipe Generator <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img
+            src="img/recipe.jpg"
+            alt="Recipe Generator"
+            class="portfolio__img" />
+          <p class="project-description">
+            A JavaScript-based app that fetches and displays recipes with
+            ingredients and steps.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo6" class="btn" target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a
+              href="https://your-weather-app.com"
+              target="_blank"
+              rel="noopener">
+              Weather App <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img src="img/weather.jpg" alt="Weather App" class="portfolio__img" />
+          <p class="project-description">
+            A weather dashboard fetching real-time data from an API with a clean
+            UI.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo7" class="btn" target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <h3 class="project-title">
+            <a
+              href="https://your-clock-site.com"
+              target="_blank"
+              rel="noopener">
+              World Clock <i class="fas fa-arrow-right"></i>
+            </a>
+          </h3>
+          <img
+            src="img/clock.webp"
+            alt="Digital Clock"
+            class="portfolio__img" />
+          <p class="project-description">
+            A digital clock showing real-time updates with a simple and bold
+            layout.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/your-repo8" class="btn" target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="mailto:tholoana.manyane@gmail.com" class="footer__link"
+        >tholoana.manyane@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/Tholoana96"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://linkedin.com/in/tholoana-manyane"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
